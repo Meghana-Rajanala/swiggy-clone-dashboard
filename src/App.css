@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+/* App.css */
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+.h2{
+    color:#440381;  
+}
+.navSection {
+    /* border: 0.3px solid #FFA5A5; */
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #440381;
+    align-items: center;
+    color:white;
+    padding:0 30px;
+    font-size: large;
+}
+
+.sideBarSection{
+   background-color:#EC368D;
+    padding-top: 10px;
+    color:white;
+    width:100%;
+    max-width:13%;
+    height:89vh;
+}
+.sideBarSection ul li{
+    list-style-type: none;
+    margin-bottom:20px;
+    margin-top:20px;
+    font-weight: 500;
+    font-size:medium;
+    cursor: pointer;
+}
+.collectionSection{
+    display: flex;
+}
+.loginSection{
+    border:1px solid orange;
+    width: 100%;
+}
+
+.AuthForm{
+  
+    width: 100%;
+    max-width: 40%;
+    border:1px solid lightgreen;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin: 5% 30%;
+   -webkit-box-shadow: 3px -6px 36px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px -6px 36px -5px rgba(0,0,0,0.75);
+box-shadow: 3px -6px 36px -5px rgba(0,0,0,0.75);
+}
+.AuthForm input{
+    border: 2px solid lightblue;
+}
+.AuthForm h2{
+    margin-top: 2rem;  
+}
+.form-outline{
+    width: 50%; 
+    
+}
+.form-outline label{
+    text-align: center;
+}
+
+.registerSection{
+    border:1px solid orange;
+    width: 100%;
+}
+
+.firmSection{
+    border:1px solid orange;
+    width: 100%;
+}
+
+.firmtable{
+    width: 100%;
+    max-width: 50%;
+    border:1px solid lightgreen;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin: 3% 20%;
+   -webkit-box-shadow: 3px -6px 36px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px -6px 36px -5px rgba(0,0,0,0.75);
+box-shadow: 3px -6px 36px -5px rgba(0,0,0,0.75);
+}
+.firmtable input{
+    border: 1px solid lightblue;
+}
+.firmtable h2{
+    margin-top: 2rem;  
+}
+
+input[type="file"]::file-selector-button {
+    font-weight: bold;
+    color: dodgerblue;
+    padding: 0.5rem;
+    background-color: black;
+    border-radius: 3px;
+  }
+  
+  .form-outline input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-left: 2rem; /* Adjust as needed */
+  }
+
+  
+.productSection{
+    border:1px solid orange;
+    width: 100%;
+}
+
+.producttable{
+    width: 100%;
+    max-width: 50%;
+    border:1px solid lightgreen;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin: 3% 20%;
+   -webkit-box-shadow: 3px -6px 36px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px -6px 36px -5px rgba(0,0,0,0.75);
+box-shadow: 3px -6px 36px -5px rgba(0,0,0,0.75);
+}
+.producttable input{
+    border: 1px solid lightblue;
+}
+.producttable h2{
+    margin-top: 2rem;  
+}
+
+.welcomeSection{
+    width:70%;
+    margin:10rem 12rem;
+   
+}
+
+.welcomeSection h2 {
+    background-image: linear-gradient(#00E5ff, #120DFF);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent;
+
+    text-align: center;
+}
+
+.errorSection{
+    width: 100%;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.errorSection h1{
+    font-size: 5rem;
+    color:red;
+}
